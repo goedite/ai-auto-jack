@@ -27,7 +27,7 @@ const MultiStepForm: React.FC<MultiStepFormProps> = ({ onComplete }) => {
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const webhookUrl = 'https://services.leadconnectorhq.com/hooks/eD0Y8xCYSZc25DM2RSfS/webhook-trigger/c44e0f3e-099b-4821-96f4-670839bedcca';
+  const webhookUrl = ''; // Add your webhook URL here
 
   const employeeOptions = [
     'Me and vendors',
