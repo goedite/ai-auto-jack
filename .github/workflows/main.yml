@@ -1,13 +1,10 @@
 .github/workflows/dockerhub.yml
 name: Build and Push to Docker Hub
 
-on:
+"on":
   push:
     branches: ["main"]
   workflow_dispatch:
-
-env:
-  IMAGE_NAME: ai-auto-jack
 
 jobs:
   build-and-push:
